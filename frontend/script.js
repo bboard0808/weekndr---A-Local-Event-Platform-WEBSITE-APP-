@@ -4,9 +4,9 @@ function togglePassword() {
 
     if (passwordInput.type === "password") {
         passwordInput.type = "text";
-        showPasswordText.textContent = "Hide"; // Change text to "Hide"
+        showPasswordText.textContent = "Hide"; 
     } else {
         passwordInput.type = "password";
-        showPasswordText.textContent = "Show"; // Change text back to "Show"
+        showPasswordText.textContent = "Show"; 
     }
 }
